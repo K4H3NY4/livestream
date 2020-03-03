@@ -30,7 +30,8 @@
 .livestreamlogo{
     height:50px;
     width: 100%;
-    background-image: url(img/livestream/logo.png);
+    background-image: url("../img/logo.png");
+   
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -40,7 +41,7 @@
     height: 70vh;
     width: 100%;
     background-color: grey;
-    background-image: url(img/livestream/videoheader.png);
+    background-image: url(../img/videoheader.png);
     background-size: cover;
    
 }
@@ -72,24 +73,24 @@
 
 
 .film{
-    background-image: url(img/livestream/film.png);
+    background-image: url(../img/film.png);
     background-size: cover;
     background-position: center;
 }
 
 .print{
-    background-image: url(img/livestream/print.png);
+    background-image: url(../img/print.png);
     background-size: cover;
     background-position: center;
 }
 
 .threed1{
-    background-image: url(img/livestream/3d1.png);
+    background-image: url(../img/3d1.png);
     background-size: cover;
     background-position: center;
 }
 .threed2{
-    background-image: url(img/livestream/3d2.png);
+    background-image: url(../img/3d2.png);
     background-size: cover;
     background-position: center;
 }
@@ -100,7 +101,7 @@
     height: 70vh;
     width: 100%;
     background-color: grey;
-    background-image: url(img/livestream/3deabl.png);
+    background-image: url(../img/3deabl.png);
     background-size: cover;
     background-position: center;
    
@@ -110,7 +111,7 @@
 /* ---- TEAM MEMBERS ---*/
 
 .team1{
-    background-image: url(img/livestream/alice.png);
+    background-image: url(../img/alice.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +119,7 @@
 }
 
 .team2{
-    background-image: url(img/livestream/grace.png);
+    background-image: url(../img/grace.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,7 +131,7 @@
     height: 70vh;
     width: 100%;
     background-color: grey;
-    background-image: url(img/livestream/graceProfile.png);
+    background-image: url(../img/graceProfile.png);
     background-size: cover;
     background-position: center;
    
