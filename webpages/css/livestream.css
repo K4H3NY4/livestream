@@ -1,0 +1,172 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+
+}
+
+.container-fluid {
+    width: 100% !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* --- NAV BAR ---*/
+
+.bg-dark {
+    background-color: #231f20 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* ---- logo ---*/
+
+.livestreamlogo{
+    height:50px;
+    width: 100%;
+    background-image: url(img/livestream/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.videoSection{
+    height: 70vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(img/livestream/videoheader.png);
+    background-size: cover;
+   
+}
+
+.weAreText{
+    color: #f48932;
+  
+  /*  font-weight: bolder; */
+    text-align: center;
+    padding-top: 60px;
+    font-size: large;
+    height: 300px;
+    font-size: 2em;
+}
+
+
+
+/* ---- SERVICES ----*/
+
+
+.preview{
+  /*  width: 100%;*/
+    height: 40vh;
+    background: grey;
+    line-height: 0.5;
+    color: white;
+    
+}
+
+
+.film{
+    background-image: url(img/livestream/film.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.print{
+    background-image: url(img/livestream/print.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.threed1{
+    background-image: url(img/livestream/3d1.png);
+    background-size: cover;
+    background-position: center;
+}
+.threed2{
+    background-image: url(img/livestream/3d2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----- work video ----*/
+
+.workVideo{
+    height: 70vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(img/livestream/3deabl.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+/* ---- TEAM MEMBERS ---*/
+
+.team1{
+    background-image: url(img/livestream/alice.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+}
+
+.team2{
+    background-image: url(img/livestream/grace.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+}
+
+
+.profilePicture{
+    height: 70vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url(img/livestream/graceProfile.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.border-10{
+    border-style: solid;
+    border-color:white;
+    border-right-width: 20px;
+    border-bottom-width: 10px;
+}
+
+
+.workText{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.view-more{
+    background-color:#231f20;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+.brandsLogo{
+    vertical-align: bottom;
+    border-style: solid;
+    border-left-width: 23px;
+    margin-left: 0px;
+    border-color: white;
+        
+}
+
+body {
+    font-family: Muli, 'Segoe UI', Tahoma, sans-serif;
+}
