@@ -163,17 +163,7 @@
 }
 
 
-.profilePicture{
-    height: 70vh;
-    width: 100%;
-    background-color: grey;
-    background-image: url(../img/graceProfile.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-}
+
 
 .border-10{
     border-style: solid;
